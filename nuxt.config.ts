@@ -3,6 +3,13 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
 
+  runtimeConfig: {
+    apiSecret: '123',
+    public: {
+      apiBase: '/api'
+    }
+  },
+
   modules: [
     '@nuxt/ui',
     '@nuxt/test-utils',
