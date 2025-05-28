@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "author": "Amit",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "author": "Homit",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "yet another title",
+      "author": "hominid",
+      "views": 42
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": 1
+    }
+  ]
+}
